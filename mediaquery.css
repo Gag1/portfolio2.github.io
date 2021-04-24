@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+     .bck-img h4{
+         font-size: 50px;
+     }    
+     .bck-img h6{
+         font-size: 50px;
+     } 
+     .c-7 button{
+         margin-top: -2px;
+     }
+     .c-7 h4{
+         margin-top: -100px;
+     }
+}
+
+@media screen and (max-width:870px) {
+    .navbar nav ul li {
+        display: none;
+    }
+    .btnNavbar img{
+        display: block;
+        width: 40px;
+        height: 30px;
+    }
+    .btnspace{
+        display: none;
+        width: 100%;
+        height: 40%;
+        background: white;
+        position: absolute;
+        left: 0;
+        top: 40px;
+    }
+    .btnspace nav ul li {
+        display: block;
+        font-family: Roboto;
+    }
+}
